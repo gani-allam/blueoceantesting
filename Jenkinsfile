@@ -22,6 +22,12 @@ pipeline {
           }
         }
 
+        stage('Adding through jenkins') {
+          steps {
+            echo 'hello git from jenkins'
+          }
+        }
+
       }
     }
 
